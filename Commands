@@ -1,0 +1,29 @@
+sudo - admin spaxw- super admin
+clear - limpiar terminal
+Ls - opciones de carpeta
+Dir - mostrar contenido de una carpeta
+
+sudo apt update - buscar actualizaciones
+sudo apt upgrade - actualizar sistema
+
+Ctrl c - cancela comando actual
+sudo reboot
+sudo apt search paquete - paquetes relacionados
+
+sudo apt install sl 
+
+sudo rm - (borrar opciones) -RF
+
+sudo rm -RF/ --no preserve-root / borrar por completo paquetes.
+
+sudo kill -9(ID especifico) ID se utiliza cuando se traba.
+
+sudo apt install htop - mostrar process 
+
+top - lista de procesos (interaccion en tiempo real)
+Scripting bash
+Task manager- system monitor.
+
+Ps -aux   / Mostrar lista de procesos que estan corriendo.
+
+Pstree - arbol de procesos
