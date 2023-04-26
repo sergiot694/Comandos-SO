@@ -2,28 +2,78 @@ sudo - admin spaxw- super admin
 clear - limpiar terminal
 Ls - opciones de carpeta
 Dir - mostrar contenido de una carpeta
-
+cp / lo utilizamos para copiar archivos
 sudo apt update - buscar actualizaciones
 sudo apt upgrade - actualizar sistema
-
 Ctrl c - cancela comando actual
 sudo reboot
 sudo apt search paquete - paquetes relacionados
 
 sudo apt install sl 
-
 sudo rm - (borrar opciones) -RF
-
 sudo rm -RF/ --no preserve-root / borrar por completo paquetes.
-
 sudo kill -9(ID especifico) ID se utiliza cuando se traba.
-
 sudo apt install htop - mostrar process 
 
-top - lista de procesos (interaccion en tiempo real)
+nano / crea un archivo
+more / muestra contenido de archivos de txt grandes.
+cd / cambiar el directorio de trabajo actual de un usuario.
+pwd / se usa para mostrar el nombre del directorio actual, lo que puede ser util al navegar por el sis de archivo.
+top / lista de procesos (interaccion en tiempo real)
 Scripting bash
 Task manager- system monitor.
-
 Ps -aux   / Mostrar lista de procesos que estan corriendo.
-
 Pstree - arbol de procesos
+Cat / mostrar contenido adentro de archivo de txt.
+rm / se utiliza para eliminar archivos y directorios.
+locate / busca archivos en la PC, la red o internet.
+
+mv / se utiliza para mover y renombrar archivos
+mkdir / crea directorios y subdirectorios.
+chmod / se utiliza para cambiar permisos de un archivo.
+rmdir / eliminar directorio vacio y su contenido de sistema de archivos.
+tail/ imprime ultimas lineas de un archivo en especifico.
+zip / comprimir archivos
+unzip / descomprimir archivos.
+grep / Se utiliza para encontrar patrones de un archivo o del sistema.
+History / muestra el historial de todos los comandos utilizados.
+
+^^^COMANDOS MANJARO^^^
+
+sudo pacman-Syy  // Actualizar Sistema.
+sudo pacman -S unrar zip unzip p7zip gzip bzip2 // Instala Zip
+sudo pacman -S apache // Instalacion de Apache.
+yay -S google-chrome // Instalacion de google chrome.
+sudo pacman-S // Instalacion de programa.
+neofetch // Muestra informacion del Sistema.
+pacman -R // Elimina paquete que se indique.
+pacman -Q // Muestra los paquetes instalados.
+sudo pacman-Scc // Limpiar sistema.
+
+^^^LISTA DE COMANDOS DOCKER^^^
+
+docker pull // Descarga la imagen del contenedor.
+docker search // busqueda en Docker Hub una imagen.
+docker images // visualizar las imagenes descargadas.
+sudo yay -S --needed base-devel  // Muestra el repositorio core
+docker run // Ejecuta un  nuevo contenedor usando una imagen.
+
+sudo docker ps -a // Muestra el estado actual de los contenedores.
+sudo docker start // inicializa un contenedor detenido.
+sudo docker stop // Detiene un contenedor.
+docker rmi image // Elimina una imagen dentro de docker.
+docker rmi image + ID // Elimina un contenedor.
+docker network ls // Da a conocer la red de Docker.
+docker run -rm + imagen / Elimina imagen de un contenedor que fue cerrado.
+
+vim Dockerfile // Crear un archivo Docker.
+FROM // Indica la imagen sobre que se ejecuta el contenedor.
+RUN // Indica los comandos a ejecutar.
+ADD // Añade elementos
+wq // Guardar un archivo vim y salir del archivo.
+
+
+
+
+
+
